@@ -1,0 +1,19 @@
+{
+  "name": "marketplace-sms-suppression-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx scripts/demo.ts",
+    "test": "tsx test/suppression.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
